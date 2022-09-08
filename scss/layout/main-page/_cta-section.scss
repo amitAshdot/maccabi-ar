@@ -66,6 +66,7 @@ picture {
         flex-direction: column;
         align-content: center;
         align-items: center;
+        overflow: visible;
 
         // margin-block-start: 2rem;
         @include respond(tab-port) {
@@ -87,14 +88,15 @@ picture {
         }
 
         .details {
-            font-family: 'ploni-bold', sans-serif;
-            font-size: 4rem;
+            font-family: 'AdobeArabicBold', sans-serif;
+            font-size: 6rem;
             font-weight: bold;
             // color: $color-secondary;
             color: $color-primary;
             width: 70%;
             height: auto;
-            line-height: 5rem;
+            line-height: 5.5rem;
+            overflow: visible;
 
             @include respond(tab-port) {
                 font-size: 9rem;
@@ -103,7 +105,7 @@ picture {
         }
 
         #maccabi {
-            font-family: 'ploni-bold', sans-serif;
+            font-family: 'AdobeArabicBold', sans-serif;
             font-size: 8rem;
             font-weight: bold;
             // color: $color-primary;
@@ -228,7 +230,7 @@ picture {
         border-radius: 31px;
         background-color: $color-secondary;
         border: none;
-        font-family: 'ploni-bold', sans-serif;
+        font-family: 'AdobeArabicBold', sans-serif;
         font-size: 1.5rem;
 
         @include respond(tab-port) {
