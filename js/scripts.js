@@ -140,7 +140,7 @@ document.addEventListener("DOMContentLoaded", function () {
             flag = true;
         }
         if (flag) {
-            message.innerHTML = "אנא מלא/י את כל השדות";
+            message.innerHTML = "يرجى ملء جميع الحقول المطلوبة";
             message.classList.add("error");
         }
         return flag ? false : true;
